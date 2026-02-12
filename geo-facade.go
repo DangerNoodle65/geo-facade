@@ -25,7 +25,7 @@ type zippoResponse struct {
 
 func init() {
 	// This prints once when the package is imported
-	fmt.Printf("[GEO PACKAGE] Author: Student A | Loaded at: %s\n", time.Now().Format("15:04:05"))
+	fmt.Printf("[GEO PACKAGE] Author: Nina Tacheva | Loaded at: %s\n", time.Now().Format("15:04:05"))
 }
 
 // GetCoords fetches city, state, lat, and lon for a US zip code.
